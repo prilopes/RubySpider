@@ -1,5 +1,7 @@
 class Node
 
+  attr_writer :previous_node, :next_node
+
   def initialize(value)
     @value = value
     @previous_node = nil
@@ -12,5 +14,9 @@ class Node
 
   def last?
     @next_node.nil?
+  end
+
+  def to_s
+    @value.to_s
   end
 end
