@@ -1,6 +1,7 @@
 class Node
 
   attr_writer :previous_node, :next_node
+  attr_reader :previous_node, :next_node
 
   def initialize(value)
     @value = value
