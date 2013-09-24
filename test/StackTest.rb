@@ -1,5 +1,5 @@
-require "src/List"
-require "src/Stack"
+require_relative "../src/List"
+require_relative "../src/Stack"
 require "test/unit"
 
 class StackTest < Test::Unit::TestCase

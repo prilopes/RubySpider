@@ -1,4 +1,4 @@
-require "src/List"
+require_relative "../src/List"
 require "test/unit"
 
 class ListTest < Test::Unit::TestCase

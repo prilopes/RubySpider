@@ -1,4 +1,4 @@
-require "src/Node"
+require_relative "../src/Node"
 require "test/unit"
 
 class NodeTest < Test::Unit::TestCase
